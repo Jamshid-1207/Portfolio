@@ -1,3 +1,5 @@
+import projects from "../data/projects";
+
 export default function ProjectCard({ title, desc, img, link }) {
   return (
     <div className="project-card">
