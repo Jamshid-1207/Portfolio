@@ -17,7 +17,7 @@ const project = [
     id: 3,
     title: "Calculator",
     desc: "Best calculator app",
-    img: "/projects/weather-app.png",
+    img: "/projects/calculator-screen.jpeg",
     link: "https://github.com/Jamshid-1207/First-todo-human-written-with-AI-enhancement",
   },
 ];
