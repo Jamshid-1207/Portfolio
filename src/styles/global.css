@@ -49,3 +49,59 @@ section {
 .link:hover {
   background: #0066d9;
 }
+
+.link--outline {
+  background: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+.link--outline:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.project-card__cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  padding: 1rem;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #007bff, #6f42c1);
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.project-card__stack {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.project-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+.skills li {
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #eee;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.contact-link {
+  color: #007bff;
+}
+.contact-link:hover {
+  text-decoration: underline;
+}
